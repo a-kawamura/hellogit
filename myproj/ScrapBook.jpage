@@ -1,0 +1,34 @@
+new Long(0x100000000l).hashCode() == new Long(1l).hashCode()
+new Long(0x100000000l).toString()
+Object
+
+Hashtable
+Arrays
+
+
+
+
+Super s = new Super();
+
+System.out.println("s:" + s.toString() + " clone:" + s.clone()); 
+System.out.println(s == s.clone());
+System.out.println(s.getPF(new Super()));
+
+
+Sub s = new Sub();
+
+
+String str = new String();
+System.out.println(str
+		.getClass().asSubclass(str.getClass()));
+
+public enum Test {A, B}
+
+System.out.println(A);
+
+System.out.println(java.math.RoundingMode);
+
+int i = 1, j = 2;
+System.out.println(i + " " + j);
+
+
