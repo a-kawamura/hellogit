@@ -22,7 +22,8 @@ Sub s = new Sub();
 
 
 String str = new String();
-System.out.println(str
+
+System.out.println(str
 		.getClass().asSubclass(str.getClass()));
 
 public enum Test {A, B}
@@ -33,5 +34,7 @@ System.out.println(java.math.RoundingMode);
 
 int i = 1, j = 2;
 System.out.println(i + " " + j);
+
+add by web
 
 
